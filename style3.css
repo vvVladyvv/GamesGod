@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'GamesGoD';
+  src:  url('font/GamesGoD.eot?huoxzf');
+  src:  url('font/GamesGoD.eot?huoxzf#iefix') format('embedded-opentype'),
+    url('Icon/fonts/GamesGoD.eot') format('truetype'),
+    url('font/GamesGoD.woff?huoxzf') format('woff'),
+    url('font/GamesGoD.svg?huoxzf#GamesGoD') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'GamesGoD' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-diamond:before {
+  content: "\eca6";
+}

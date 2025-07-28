@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(imagenes/wallpaper.png);
+    background-size: cover;
+}
+.formulario {
+    width: 800px;
+    background: url(Imagenes/creeper.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    display: table-cell;
+}
+
+.formulario h4 {
+    font-size: 30px;
+    margin-bottom:20px ;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.controles {
+    width: 200%;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #034e1c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(13, 83, 6);
+}
+
+
+.formulario p {
+    text-align: center;
+    font-size: 18px;
+}
+.formulario a:hover{
+    text-decoration: underline;
+    color:lightskyblue;
+}
+
+.formulario .boton {
+    width: 200%;
+    background-color: #065225;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
